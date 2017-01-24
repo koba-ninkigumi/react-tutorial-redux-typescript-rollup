@@ -23,6 +23,7 @@ export default {
     'redux':'Redux',
     'react-redux':'ReactRedux',
     'redux-thunk':'ReduxThunk',
-    'redux-logger':'reduxLogger'
+    'redux-logger':'reduxLogger',
+    'whatwg-fetch':'fetch'
   }
 }

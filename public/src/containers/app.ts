@@ -12,7 +12,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators(commentActions, dispatch)
+  return bindActionCreators<any>(commentActions, dispatch)
 }
 
-export default connect<any,any,any>(mapStateToProps, mapDispatchToProps)(CommentBox)
+export default connect(mapStateToProps, mapDispatchToProps)(CommentBox)

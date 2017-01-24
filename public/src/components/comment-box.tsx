@@ -2,6 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import CommentList from './comment-list';
 import CommentForm from './comment-form';
+import 'whatwg-fetch';
 
 interface CommentDataItem {
   id: number
